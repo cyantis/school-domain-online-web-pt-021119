@@ -7,6 +7,7 @@ class School
   end
 
   def roster
+    binding.pry
     @roster
   end
 
