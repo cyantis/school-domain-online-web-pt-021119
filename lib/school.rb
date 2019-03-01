@@ -9,7 +9,6 @@ class School
   end
 
   def roster
-    binding.pry
     @roster
   end
 
@@ -25,5 +24,7 @@ class School
   def sort
     @roster
   end
+
+  binding.pry
 
 end
