@@ -1,15 +1,15 @@
 class School
   attr_reader :name
 
-  roster = {}
-
-  def initialize(name)
+   def initialize(name)
     @name = name
   end
 
+  ROSTER = {}
+
   def add_student(student_name, grade)
-    roster[grade] = [] if !roster.key?(grade)
-    roster[grade] << student_name
+    ROSTER[grade] = [] if !ROSTER.key?(grade)
+    ROSTER[grade] << student_name
   end
 
 end
